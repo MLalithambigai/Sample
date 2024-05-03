@@ -16,7 +16,7 @@ export const AdobtLogin = () => {
         <div className='AdobtLogin-body'>
           <input type="text" placeholder='Username' className='AdobtLogin-body-input' name='Username' />
           <input type="text" placeholder='Password' className='AdobtLogin-body-input' name='Password'/>
-          <button className='AdobtLogin-body-button'> <Link to="/Adobt/ViewChild" style={{textDecoration:"none"}}>SIG IN</Link></button>
+          <button className='AdobtLogin-body-button'> <Link to="/Adobt/ViewChild" style={{textDecoration:"none"}}>SIGN IN</Link></button>
         </div>
 
         <div className='AdobtLogin-signup'>

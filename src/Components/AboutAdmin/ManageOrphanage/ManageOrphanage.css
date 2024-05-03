@@ -1,0 +1,51 @@
+.ManageOrphanage-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    color: red;
+}
+
+.table-Details {
+    border-collapse: collapse;
+}
+.table-Details thead tr{
+    background-color: greenyellow;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.table-Details th{
+    padding: 15px 15px;
+    font-size: 20px;
+    border: 1px solid #555;
+    
+}
+
+
+.table-Details td{
+    padding: 8px 15px;
+    background-color: #dcfaf4;
+    border: 1px solid #555;
+    font-weight: 550;
+}
+.edit-buttons{
+    display: flex;
+    gap:7px;
+}
+.update-button, .delete-button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.update-button:hover{
+    background-color: blue;
+}
+.delete-button:hover{
+    background-color: blue;
+}
